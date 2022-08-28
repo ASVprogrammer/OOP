@@ -2,23 +2,23 @@
 
 class Model
 {
-    private $brand;
-    private $name;
+    private $manufacturer;
+    private $sample;
 
-    public function __construct($brand, $name)
+    public function __construct($manufacturer, $sample)
     {
-        $this->brand = $brand;
-        $this->name = $name;
+        $this->manufacturer = $manufacturer;
+        $this->sample = $sample;
     }
 
-    public function getBrand()
+    public function getManufacturer()
     {
-        return $this->brand;
+        return $this->manufacturer;
     }
 
-    public function getName()
+    public function getSample()
     {
-        return $this->name;
+        return $this->sample;
     }
 
     public function __destruct()
@@ -29,6 +29,6 @@ class Model
 
 $model = new Model('BMW', 'M8cope');
 
-echo $model->getBrand() . PHP_EOL;
-echo $model->getName();
+echo $model->getManufacturer() . PHP_EOL;
+echo $model->getSample();
 
