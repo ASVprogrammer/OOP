@@ -1,6 +1,8 @@
 <?php
 
-use Salary\Person;
+require_once '../../../vendor/autoload.php';
+
+
 
 class Employee extends Person
 {
@@ -20,3 +22,4 @@ class Employee extends Person
 
 $employee = new Employee("Arthur", "29","123456789","2000");
 echo $employee->hello();
+

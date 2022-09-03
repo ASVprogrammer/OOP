@@ -1,0 +1,14 @@
+{
+    "name": "vosou/oop",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sajjad",
+            "email": "vosoughsajjad@gmail.com"
+        }
+    ]
+}

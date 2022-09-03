@@ -1,6 +1,6 @@
 <?php
 
-namespace Salary;
+namespace App\Person;
 
 class Person
 {

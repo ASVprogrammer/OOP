@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class Car
 {
     private $color;
